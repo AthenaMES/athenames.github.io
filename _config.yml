@@ -63,6 +63,7 @@ kramdown:
   input: GFM
 
 exclude:
+  - _marketing
   - README.md
   - HOSTING.md
   - BLOGGING.md
