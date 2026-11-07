@@ -1,0 +1,89 @@
+# Pages CMS settings: the private editor for the blog and case studies.
+# Open https://app.pagescms.org, sign in with GitHub and pick this repository.
+# Only people with access to this repository can sign in and publish.
+
+media:
+  input: assets/images/posts
+  output: /assets/images/posts
+
+content:
+  - name: posts
+    label: Blog articles
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Summary for Google (about 150 characters)
+        type: text
+      - name: date
+        label: Date
+        type: date
+      - name: author
+        label: Author
+        type: string
+        default: Athena team
+      - name: image
+        label: Cover image (1200 x 630 works best)
+        type: image
+      - name: image_alt
+        label: Describe the cover image in a few words
+        type: string
+      - name: body
+        label: Article
+        type: rich-text
+
+  - name: case_studies
+    label: Case studies
+    type: collection
+    path: _case_studies
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, published]
+    fields:
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: false
+      - name: title
+        label: Title (customer and result)
+        type: string
+        required: true
+      - name: description
+        label: Summary for Google (about 150 characters)
+        type: text
+      - name: date
+        label: Date
+        type: date
+      - name: customer
+        label: Customer (or an unnamed description)
+        type: string
+      - name: industry
+        label: Industry
+        type: string
+      - name: plant_size
+        label: Plant size
+        type: string
+      - name: modules
+        label: Athena modules used
+        type: string
+        list: true
+      - name: results
+        label: Results (real, measured numbers)
+        type: string
+        list: true
+      - name: image
+        label: Cover image
+        type: image
+      - name: image_alt
+        label: Describe the cover image in a few words
+        type: string
+      - name: body
+        label: Case study
+        type: rich-text

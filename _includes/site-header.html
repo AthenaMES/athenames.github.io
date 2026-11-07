@@ -1,0 +1,17 @@
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Athena home"><span class="logo" aria-hidden="true"></span></a>
+    <nav class="tabsbar-in" aria-label="Sections">
+      <a class="tb" href="{{ '/' | relative_url }}">Overview</a>
+      <a class="tb" href="{{ '/#ask' | relative_url }}">Why Athena</a>
+      <a class="tb" href="{{ '/#modules' | relative_url }}">Modules</a>
+      <a class="tb" href="{{ '/#way' | relative_url }}">How we work</a>
+      <a class="tb" href="{{ '/#faq' | relative_url }}">FAQ</a>
+    </nav>
+    <div class="nav">
+      <a class="head-contact head-blog" href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' or page.collection == 'case_studies' %} aria-current="page"{% endif %}>Blog</a>
+      <a class="head-contact" href="{{ '/#contact' | relative_url }}">Contact</a>
+      <a class="btn btn-primary btn-sm" href="{{ '/#demo' | relative_url }}">Book a demo</a>
+    </div>
+  </div>
+</header>

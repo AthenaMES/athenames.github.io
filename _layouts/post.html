@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{% assign is_case = false %}{% if page.collection == 'case_studies' %}{% assign is_case = true %}{% endif %}
+<article class="post">
+  <div class="wrap post-wrap">
+    <a class="back" href="{{ '/blog/' | relative_url }}">← All articles and case studies</a>
+    <p class="eyebrow">{% if is_case %}Case study{% else %}Article{% endif %}</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>{% if page.author %} · {{ page.author }}{% endif %}</p>
+
+    {% if is_case %}
+    <dl class="facts">
+      {% if page.customer %}<div><dt>Customer</dt><dd>{{ page.customer }}</dd></div>{% endif %}
+      {% if page.industry %}<div><dt>Industry</dt><dd>{{ page.industry }}</dd></div>{% endif %}
+      {% if page.plant_size %}<div><dt>Plant</dt><dd>{{ page.plant_size }}</dd></div>{% endif %}
+      {% if page.modules %}<div><dt>Athena modules</dt><dd>{{ page.modules | join: ", " }}</dd></div>{% endif %}
+    </dl>
+    {% if page.results %}
+    <ul class="results">
+      {% for r in page.results %}<li>{{ r }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% endif %}
+
+    {% if page.image and page.image != "" %}<img class="cover" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">{% endif %}
+
+    <div class="prose">
+      {{ content }}
+    </div>
+
+    <aside class="post-cta">
+      <div>
+        <b>See it on your own job cards.</b>
+        <p>Show us your most complicated job card. We will walk it through Athena, stage by stage, on a live demo.</p>
+      </div>
+      <a class="btn btn-primary" href="{{ '/#demo' | relative_url }}">Book a demo</a>
+    </aside>
+  </div>
+</article>

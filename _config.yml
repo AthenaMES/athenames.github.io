@@ -1,0 +1,71 @@
+# ------------------------------------------------------------------
+# Athena website settings
+# Change "url" to your real web address before you go live.
+# ------------------------------------------------------------------
+
+title: Athena Manufacturing Intelligence
+tagline: Find the bottleneck before it finds your customer.
+description: >-
+  Athena is shop floor software (MES) for machine shops. Stage-wise planning,
+  shop floor and OEE, semi-finished and finished goods traceability,
+  subcontracting, quality and dispatch, with no IoT and no new hardware.
+
+# Your web address, with https and without a slash at the end.
+# Examples: https://www.athena-mes.com   or   https://athena.nmtgindia.com
+url: "https://jinalgit.github.io"
+
+# Leave empty when you use your own domain (recommended).
+# Only if you use https://USERNAME.github.io/REPOSITORY-NAME/ put "/REPOSITORY-NAME" here.
+baseurl: "/Athena-MES-Website"
+
+lang: en_IN
+timezone: Asia/Kolkata
+logo: /assets/img/icon-512.png
+image: /assets/img/og-image.png
+author: Athena team
+
+social:
+  name: Athena Manufacturing Intelligence
+  links: []
+
+# Blog posts live at /blog/post-name/
+permalink: /blog/:title/
+
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Athena team
+  - scope:
+      path: ""
+      type: case_studies
+    values:
+      layout: post
+      author: Athena team
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: blog/feed.xml
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - HOSTING.md
+  - BLOGGING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

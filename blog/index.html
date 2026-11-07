@@ -1,0 +1,56 @@
+---
+layout: default
+title: Blog and case studies
+description: Articles and case studies on shop floor planning, traceability, OEE and dispatch for machine shops, from the team that built Athena.
+permalink: /blog/
+---
+{% assign cases = site.case_studies %}
+{% assign items = site.posts | concat: cases | sort: "date" | reverse %}
+<section class="blog-hero">
+  <div class="wrap">
+    <p class="eyebrow">Blog</p>
+    <h1 class="blog-title">Notes from the shop floor.</h1>
+    <p class="lede">How machine shops plan stages, trace every lot and keep dispatch dates honest. Written by people who run a shop floor every day.</p>
+    <div class="filters" role="group" aria-label="Show">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="case" aria-pressed="false">Case studies</button>
+      <button type="button" data-f="article" aria-pressed="false">Articles</button>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  {% if items.size > 0 %}
+  <ul class="cards" id="cards">
+    {% for item in items %}
+    {% if item.collection == "case_studies" %}{% assign kind = "case" %}{% else %}{% assign kind = "article" %}{% endif %}
+    <li class="card" data-kind="{{ kind }}">
+      <a href="{{ item.url | relative_url }}">
+        {% if item.image and item.image != "" %}<img src="{{ item.image | relative_url }}" alt="" loading="lazy">{% endif %}
+        <span class="kind {{ kind }}">{% if kind == "case" %}Case study{% else %}Article{% endif %}</span>
+        <h2>{{ item.title }}</h2>
+        <p>{{ item.description | default: item.excerpt | strip_html | truncate: 170 }}</p>
+        <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%d %b %Y" }}</time>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="empty" id="empty" hidden>Nothing here yet.</p>
+  {% else %}
+  <p class="empty">The first articles are on their way.</p>
+  {% endif %}
+</section>
+
+<script>
+(function(){
+  var btns = document.querySelectorAll(".filters button"), cards = document.querySelectorAll("#cards .card"), empty = document.getElementById("empty");
+  Array.prototype.forEach.call(btns, function(b){
+    b.addEventListener("click", function(){
+      var f = b.getAttribute("data-f"), shown = 0;
+      Array.prototype.forEach.call(btns, function(o){ o.setAttribute("aria-pressed", String(o === b)); });
+      Array.prototype.forEach.call(cards, function(c){ var on = f === "all" || c.getAttribute("data-kind") === f; c.hidden = !on; if (on) shown++; });
+      if (empty) empty.hidden = shown > 0;
+    });
+  });
+})();
+</script>
