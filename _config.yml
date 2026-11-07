@@ -12,11 +12,11 @@ description: >-
 
 # Your web address, with https and without a slash at the end.
 # Examples: https://www.athena-mes.com   or   https://athena.nmtgindia.com
-url: "https://jinalgit.github.io"
+url: "https://athenames.github.io"
 
 # Leave empty when you use your own domain (recommended).
 # Only if you use https://USERNAME.github.io/REPOSITORY-NAME/ put "/REPOSITORY-NAME" here.
-baseurl: "/Athena-MES-Website"
+baseurl: ""
 
 lang: en_IN
 timezone: Asia/Kolkata

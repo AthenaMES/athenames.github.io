@@ -1,5 +1,7 @@
 # Put the Athena website live with GitHub Pages
 
+**Live now at https://athenames.github.io** (repository AthenaMES/athenames.github.io, Pages: Deploy from a branch, main, / root).
+
 GitHub Pages hosts the site for free and builds the blog for you. You do not need to install anything on your computer.
 
 ## 1. Create the repository
