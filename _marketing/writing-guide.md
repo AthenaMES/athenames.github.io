@@ -50,7 +50,12 @@ This folder starts with an underscore, so Jekyll does not publish it. It is the 
 
 ## Daily review by email
 - Every new draft is emailed to Jinal (jinal@nmtgindia.com) the morning before it goes live.
-- He replies in the same thread: changes at the top, edits in the text, or HOLD.
+- He replies in the same thread in one of four ways:
+  - a list of changes at the top of the reply;
+  - his own full version: "NEW VERSION" on the first line, then the whole edited article pasted below it;
+  - HOLD;
+  - no reply (it goes live as it is).
+- A full new version replaces the draft. His wording wins. The routine only restores the Markdown structure, converts links, swaps em dashes for commas or colons, fixes plain typing slips, and lists every such fix in the next email.
 - The next morning's run applies his reply before publishing at about 7:45 AM IST, so the article is live by 8 AM.
 
 ## Front matter for a new draft
