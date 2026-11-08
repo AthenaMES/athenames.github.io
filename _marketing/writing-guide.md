@@ -48,6 +48,11 @@ This folder starts with an underscore, so Jekyll does not publish it. It is the 
 - Copy text from other websites.
 - Give legal, tax or compliance advice as fact; point to the official body instead.
 
+## Daily review by email
+- Every new draft is emailed to Jinal (jinal@nmtgindia.com) the morning before it goes live.
+- He replies in the same thread: changes at the top, edits in the text, or HOLD.
+- The next morning's run applies his reply before publishing at about 7:45 AM IST, so the article is live by 8 AM.
+
 ## Front matter for a new draft
 ```yaml
 ---
@@ -58,6 +63,7 @@ author: Athena team
 published: false            # draft, not on the website yet
 hold: false                 # Jinal sets true to stop auto-publish
 auto_publish_on: YYYY-MM-DD # the next day
+email_thread: "..."          # Gmail thread of the review email sent to Jinal
 ---
 ```
 File name: `_posts/YYYY-MM-DD-short-slug.md` (same date as `date`). Slug: lowercase words joined with hyphens, 4 to 7 words.

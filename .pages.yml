@@ -31,6 +31,10 @@ content:
       - name: auto_publish_on
         label: Goes live automatically on
         type: date
+      - name: email_thread
+        label: Review email thread (set by the routine)
+        type: string
+        hidden: true
       - name: title
         label: Title
         type: string
