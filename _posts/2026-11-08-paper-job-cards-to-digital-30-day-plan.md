@@ -7,6 +7,7 @@ published: false
 hold: false
 auto_publish_on: 2026-11-09
 email_thread: "1a1b97b03c24c03e"
+last_reply_id: "1a1b97b03c24c03e"
 ---
 
 Most machine shops do not run on software. They run on paper job cards, a production register, an Excel sheet in the PPC office and a lot of WhatsApp messages. That system has carried many factories a long way. But there is a point where it stops keeping up: when the number of parts, machines, vendors and customers grows faster than the people who keep the registers.

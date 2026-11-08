@@ -35,6 +35,14 @@ content:
         label: Review email thread (set by the routine)
         type: string
         hidden: true
+      - name: last_reply_id
+        label: Last email read by the routine (set by the routine)
+        type: string
+        hidden: true
+      - name: last_modified_at
+        label: Last updated after going live (set by the routine)
+        type: date
+        hidden: true
       - name: title
         label: Title
         type: string

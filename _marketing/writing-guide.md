@@ -57,6 +57,8 @@ This folder starts with an underscore, so Jekyll does not publish it. It is the 
   - no reply (it goes live as it is).
 - A full new version replaces the draft. His wording wins. The routine only restores the Markdown structure, converts links, swaps em dashes for commas or colons, fixes plain typing slips, and lists every such fix in the next email.
 - The next morning's run applies his reply before publishing at about 7:45 AM IST, so the article is live by 8 AM.
+- Late replies (after the article is live) are applied to the live article on the next morning's run, for up to 7 days after it went live. The URL, file name and date never change once live; the routine sets `last_modified_at`. HOLD on a live article takes it off the website until he says go ahead.
+- `last_reply_id` holds the id of the last email the routine has read in the thread, so no reply is applied twice.
 
 ## Front matter for a new draft
 ```yaml
@@ -69,6 +71,7 @@ published: false            # draft, not on the website yet
 hold: false                 # Jinal sets true to stop auto-publish
 auto_publish_on: YYYY-MM-DD # the next day
 email_thread: "..."          # Gmail thread of the review email sent to Jinal
+last_reply_id: "..."         # id of the last email read in that thread
 ---
 ```
 File name: `_posts/YYYY-MM-DD-short-slug.md` (same date as `date`). Slug: lowercase words joined with hyphens, 4 to 7 words.
