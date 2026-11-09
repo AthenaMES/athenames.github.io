@@ -5,7 +5,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 
 ## Moving from paper to digital
 - [x] drafted 2026-11-07: From paper job cards to digital: a 30-day plan for machine shops
-- [ ] What a job card should record at every stage (with a checklist)
+- [x] drafted 2026-11-09: What a job card should record at every stage: a checklist
 - [ ] Why paper production registers fail at month-end
 - [ ] How to digitise shop floor records without IoT or sensors
 - [ ] One computer per production area: a simple setup for shop floor data entry
