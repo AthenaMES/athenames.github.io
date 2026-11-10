@@ -3,9 +3,8 @@ title: "What a job card should record at every stage: a checklist"
 description: "A practical checklist of what a job card should record at every stage of a machine shop, from material issue to dispatch, so no lot or piece goes missing."
 date: 2026-11-10
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-10
 email_thread: "1a1be11f0867747c"
 last_reply_id: "1a1be11f0867747c"
 ---
