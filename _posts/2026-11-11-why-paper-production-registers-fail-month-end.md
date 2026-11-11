@@ -3,9 +3,8 @@ title: "Why paper production registers fail at month-end"
 description: "Paper production registers work day to day but break at month-end. See why the numbers stop matching, and a simple checklist to close the month with confidence."
 date: 2026-11-11
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-11
 email_thread: "1a1c337899912bc9"
 last_reply_id: "1a1c337899912bc9"
 ---
