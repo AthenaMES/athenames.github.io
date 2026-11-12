@@ -8,7 +8,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 - [x] drafted 2026-11-09: What a job card should record at every stage: a checklist
 - [x] drafted 2026-11-10: Why paper production registers fail at month-end
 - [x] drafted 2026-11-11: How to digitise shop floor records without IoT or sensors
-- [ ] One computer per production area: a simple setup for shop floor data entry
+- [x] drafted 2026-11-12: One computer per production area: shop floor data entry setup
 - [ ] How to train operators who have never used software
 - [ ] Writing stop reasons that operators will actually use
 - [ ] Shop floor software in the operator's own language: why it matters

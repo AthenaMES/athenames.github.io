@@ -3,9 +3,8 @@ title: "How to digitise shop floor records without IoT or sensors"
 description: "You do not need sensors or machine connections to digitise shop floor records. A practical guide to moving job cards, stops and rejections to a screen."
 date: 2026-11-12
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-12
 email_thread: "1a1c85eec9a9bb79"
 last_reply_id: "1a1c85eec9a9bb79"
 ---
