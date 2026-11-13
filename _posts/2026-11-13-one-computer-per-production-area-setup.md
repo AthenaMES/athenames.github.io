@@ -3,9 +3,8 @@ title: "One computer per production area: shop floor data entry setup"
 description: "A simple, low-cost setup for shop floor data entry: one shared computer per production area. Where to place it, who uses it, and how to keep entries on time."
 date: 2026-11-13
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-13
 email_thread: "1a1cd841e97caa54"
 last_reply_id: "1a1cd841e97caa54"
 ---
