@@ -3,9 +3,8 @@ title: "How to train operators who have never used software"
 description: "A practical way to train machine shop operators who have never used software: short sessions at the machine, one task at a time, on real job cards."
 date: 2026-11-14
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-14
 email_thread: "1a1d2ab347504ada"
 last_reply_id: "1a1d2ab347504ada"
 ---
