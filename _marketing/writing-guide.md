@@ -49,7 +49,7 @@ This folder starts with an underscore, so Jekyll does not publish it. It is the 
 - Give legal, tax or compliance advice as fact; point to the official body instead.
 
 ## Daily review by email
-- Every new draft is emailed to Jinal (jinal@nmtgindia.com) the morning before it goes live.
+- Every new draft is emailed to Jinal the morning before it goes live.
 - He replies in the same thread in one of four ways:
   - a list of changes at the top of the reply;
   - his own full version: "NEW VERSION" on the first line, then the whole edited article pasted below it;
