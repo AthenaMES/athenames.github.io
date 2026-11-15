@@ -3,9 +3,8 @@ title: "Writing stop reasons that operators will actually use"
 description: "A practical guide to writing machine stop reasons operators will actually pick: a short list, plain words, their language, and a monthly review of Others."
 date: 2026-11-15
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-15
 email_thread: "1a1d7d10efa0ab31"
 last_reply_id: "1a1d7d10efa0ab31"
 ---
