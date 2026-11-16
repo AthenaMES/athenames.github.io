@@ -12,7 +12,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 - [x] drafted 2026-11-13: How to train operators who have never used software
 - [x] drafted 2026-11-14: Writing stop reasons that operators will actually use
 - [x] drafted 2026-11-15: Shop floor software in the operator's language: why it matters
-- [ ] Signs your factory has outgrown Excel and WhatsApp
+- [x] drafted 2026-11-16: Signs your factory has outgrown Excel and WhatsApp
 
 ## Planning
 - [ ] Stage-wise production planning: why one routing date is not enough

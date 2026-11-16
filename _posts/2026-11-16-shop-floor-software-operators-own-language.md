@@ -3,9 +3,8 @@ title: "Shop floor software in the operator's language: why it matters"
 description: "Why shop floor software should speak the operator's language: fewer wrong entries, faster training and better stop data. A simple plan to set up local labels."
 date: 2026-11-16
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-16
 email_thread: "1a1dcf7b8084359d"
 last_reply_id: "1a1dcf7b8084359d"
 ---
