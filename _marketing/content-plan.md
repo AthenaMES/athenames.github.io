@@ -15,7 +15,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 - [x] drafted 2026-11-16: Signs your factory has outgrown Excel and WhatsApp
 
 ## Planning
-- [ ] Stage-wise production planning: why one routing date is not enough
+- [x] drafted 2026-11-17: Stage-wise production planning: why one due date is not enough
 - [ ] How to plan cutting by material grade and size
 - [ ] Machine-wise planning for CNC cells: load, tools and setups
 - [ ] Planning vendor stages around real lead times
