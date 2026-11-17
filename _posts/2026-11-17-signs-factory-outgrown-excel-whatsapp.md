@@ -3,9 +3,8 @@ title: "Signs your factory has outgrown Excel and WhatsApp"
 description: "Excel sheets and WhatsApp groups run many shop floors well, until they do not. Eight signs your factory has outgrown them, and a simple first step to take."
 date: 2026-11-17
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-17
 email_thread: "1a1e21e169838064"
 last_reply_id: "1a1e21e169838064"
 ---
