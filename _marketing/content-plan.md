@@ -16,7 +16,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 
 ## Planning
 - [x] drafted 2026-11-17: Stage-wise production planning: why one due date is not enough
-- [ ] How to plan cutting by material grade and size
+- [x] drafted 2026-11-18: How to plan cutting by material grade and size
 - [ ] Machine-wise planning for CNC cells: load, tools and setups
 - [ ] Planning vendor stages around real lead times
 - [ ] Setting priorities by due date without daily firefighting
