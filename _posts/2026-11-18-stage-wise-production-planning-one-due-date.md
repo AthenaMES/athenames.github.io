@@ -3,9 +3,8 @@ title: "Stage-wise production planning: why one due date is not enough"
 description: "One due date per job card hides delays until it is too late. Stage-wise production planning gives every stage its own date, so a slip shows up days earlier."
 date: 2026-11-18
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-18
 email_thread: "1a1e74443c56ec19"
 last_reply_id: "1a1e74443c56ec19"
 ---
