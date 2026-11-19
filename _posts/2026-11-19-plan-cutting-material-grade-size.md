@@ -3,9 +3,8 @@ title: "How to plan cutting by material grade and size"
 description: "A simple way to plan cutting by material grade and size: group job cards by bar, cut in the right order, track the leftover ends and keep heat numbers clear."
 date: 2026-11-19
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-19
 email_thread: "1a1ec6ae98a3b045"
 last_reply_id: "1a1ec6ae98a3b045"
 ---
