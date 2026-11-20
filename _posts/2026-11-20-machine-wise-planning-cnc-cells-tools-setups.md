@@ -3,9 +3,8 @@ title: "Machine-wise planning for CNC cells: load, tools and setups"
 description: "A practical guide to machine-wise planning for CNC cells: check each machine's load in hours, group jobs that share tools, and cut setup time without guesswork."
 date: 2026-11-20
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-20
 email_thread: "1a1f1913b8c7bab5"
 last_reply_id: "1a1f1913b8c7bab5"
 ---
