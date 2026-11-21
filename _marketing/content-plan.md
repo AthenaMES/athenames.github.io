@@ -19,7 +19,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 - [x] drafted 2026-11-18: How to plan cutting by material grade and size
 - [x] drafted 2026-11-19: Machine-wise planning for CNC cells: load, tools and setups
 - [x] drafted 2026-11-20: Planning vendor stages around real lead times
-- [ ] Setting priorities by due date without daily firefighting
+- [x] drafted 2026-11-21: Setting priorities by due date without daily firefighting
 
 ## Tracking and traceability
 - [ ] Split lots: tracking 40 of 60 pieces without losing the rest

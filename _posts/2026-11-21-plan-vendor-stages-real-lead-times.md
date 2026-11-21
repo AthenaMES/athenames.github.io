@@ -3,9 +3,8 @@ title: "Planning vendor stages around real lead times"
 description: "Plan vendor stages like heat treatment and plating around real lead times: record send and receive dates, find the true days per vendor, and plan with margin."
 date: 2026-11-21
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-21
 email_thread: "1a1f6b775f3c1676"
 last_reply_id: "1a1f6b775f3c1676"
 ---
