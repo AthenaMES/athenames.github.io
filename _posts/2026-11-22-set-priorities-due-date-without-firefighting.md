@@ -3,9 +3,8 @@ title: "Setting priorities by due date without daily firefighting"
 description: "How to set shop floor priorities by due date without daily firefighting: one priority list, stage due dates, a simple ratio, and one short review each morning."
 date: 2026-11-22
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-22
 email_thread: "1a1fbde12f71b013"
 last_reply_id: "1a1fbde12f71b013"
 ---

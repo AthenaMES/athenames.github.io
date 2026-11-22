@@ -22,7 +22,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 - [x] drafted 2026-11-21: Setting priorities by due date without daily firefighting
 
 ## Tracking and traceability
-- [ ] Split lots: tracking 40 of 60 pieces without losing the rest
+- [x] drafted 2026-11-22: Split lots: tracking 40 of 60 pieces without losing the rest
 - [ ] Rework loops: recording them so no piece goes missing
 - [ ] Semi-finished goods traceability, explained simply
 - [ ] Finished goods traceability: answering a customer complaint in minutes
