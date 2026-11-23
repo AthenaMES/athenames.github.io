@@ -3,9 +3,8 @@ title: "Split lots: tracking 40 of 60 pieces without losing the rest"
 description: "How to track split lots on the shop floor: give each part of a job card its own number, balance quantities at each stage, and never lose the pieces left behind."
 date: 2026-11-23
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-23
 email_thread: "1a201046faf9558c"
 last_reply_id: "1a201046faf9558c"
 ---
