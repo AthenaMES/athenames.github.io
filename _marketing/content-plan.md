@@ -24,7 +24,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 ## Tracking and traceability
 - [x] drafted 2026-11-22: Split lots: tracking 40 of 60 pieces without losing the rest
 - [x] drafted 2026-11-23: Rework loops: recording them so no piece goes missing
-- [ ] Semi-finished goods traceability, explained simply
+- [x] drafted 2026-11-24: Semi-finished goods traceability, explained simply
 - [ ] Finished goods traceability: answering a customer complaint in minutes
 - [ ] From heat number to dispatch: a traceability chain on a small budget
 

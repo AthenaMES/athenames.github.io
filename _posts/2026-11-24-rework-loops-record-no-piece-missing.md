@@ -3,9 +3,8 @@ title: "Rework loops: recording them so no piece goes missing"
 description: "How to record rework loops on the shop floor: tag every rework piece, link it to its job card, re-inspect it and balance quantities so nothing goes missing."
 date: 2026-11-24
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-24
 email_thread: "1a2062a8d7025eec"
 last_reply_id: "1a2062a8d7025eec"
 ---
