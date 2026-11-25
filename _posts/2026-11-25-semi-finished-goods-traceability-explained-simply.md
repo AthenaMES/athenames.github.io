@@ -3,9 +3,8 @@ title: "Semi-finished goods traceability, explained simply"
 description: "Semi-finished goods traceability in plain words: what to record between stages, how to tag work in progress, and how to answer where a piece is in one look."
 date: 2026-11-25
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-25
 email_thread: "1a20b509b6a91b3e"
 last_reply_id: "1a20b509b6a91b3e"
 ---
