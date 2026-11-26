@@ -26,7 +26,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 - [x] drafted 2026-11-23: Rework loops: recording them so no piece goes missing
 - [x] drafted 2026-11-24: Semi-finished goods traceability, explained simply
 - [x] drafted 2026-11-25: Finished goods traceability: answer a complaint in minutes
-- [ ] From heat number to dispatch: a traceability chain on a small budget
+- [x] drafted 2026-11-26: Heat number traceability from bar to dispatch, on a budget
 
 ## Subcontracting (job work)
 - [ ] How to track material at subcontractors: why challans are not enough
