@@ -3,9 +3,8 @@ title: "Finished goods traceability: answer a complaint in minutes"
 description: "Finished goods traceability in plain steps: link each box you dispatch to its job cards, heat numbers and inspection records, so a complaint is answered fast."
 date: 2026-11-26
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-26
 email_thread: "1a21077083e8f501"
 last_reply_id: "1a21077083e8f501"
 ---
