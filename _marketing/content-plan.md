@@ -29,7 +29,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 - [x] drafted 2026-11-26: Heat number traceability from bar to dispatch, on a budget
 
 ## Subcontracting (job work)
-- [ ] How to track material at subcontractors: why challans are not enough
+- [x] drafted 2026-11-27: Track material at subcontractors: why challans are not enough
 - [ ] Measuring vendor lead time and on-time delivery
 - [ ] Comparing two heat treatment vendors with your own data
 
