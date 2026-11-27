@@ -3,9 +3,8 @@ title: "Heat number traceability from bar to dispatch, on a budget"
 description: "Heat number traceability on a small budget: tag bars at receiving, carry the heat number through cutting and every stage, and link it to the box you dispatch."
 date: 2026-11-27
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-27
 email_thread: "1a2159f7ba404a21"
 last_reply_id: "1a2159f7ba404a21"
 ---
