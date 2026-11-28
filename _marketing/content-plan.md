@@ -30,7 +30,7 @@ Jinal can add, remove or reorder topics here (or ask Claude to). When the list r
 
 ## Subcontracting (job work)
 - [x] drafted 2026-11-27: Track material at subcontractors: why challans are not enough
-- [ ] Measuring vendor lead time and on-time delivery
+- [x] drafted 2026-11-28: Measuring vendor lead time and on-time delivery
 - [ ] Comparing two heat treatment vendors with your own data
 
 ## OEE, quality and tools
