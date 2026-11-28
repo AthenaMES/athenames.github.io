@@ -3,9 +3,8 @@ title: "Track material at subcontractors: why challans are not enough"
 description: "How to track material at subcontractors: why delivery challans alone lose pieces, and a simple send and receive record that shows what each vendor holds today."
 date: 2026-11-28
 author: Athena team
-published: false
+published: true
 hold: false
-auto_publish_on: 2026-11-28
 email_thread: "1a21ac4a88ed96d0"
 last_reply_id: "1a21ac4a88ed96d0"
 ---
